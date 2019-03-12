@@ -1,0 +1,14 @@
+C:\sc\github\FIT-RS2\01 Predavanje\Demo\WndClient\bin\Debug\WndClient.exe.config
+C:\sc\github\FIT-RS2\01 Predavanje\Demo\WndClient\bin\Debug\WndClient.exe
+C:\sc\github\FIT-RS2\01 Predavanje\Demo\WndClient\bin\Debug\WndClient.pdb
+C:\sc\github\FIT-RS2\01 Predavanje\Demo\WndClient\obj\Debug\MainWindow.g.cs
+C:\sc\github\FIT-RS2\01 Predavanje\Demo\WndClient\obj\Debug\App.g.cs
+C:\sc\github\FIT-RS2\01 Predavanje\Demo\WndClient\obj\Debug\WndClient_MarkupCompile.cache
+C:\sc\github\FIT-RS2\01 Predavanje\Demo\WndClient\obj\Debug\WndClient_MarkupCompile.lref
+C:\sc\github\FIT-RS2\01 Predavanje\Demo\WndClient\obj\Debug\MainWindow.baml
+C:\sc\github\FIT-RS2\01 Predavanje\Demo\WndClient\obj\Debug\WndClient.g.resources
+C:\sc\github\FIT-RS2\01 Predavanje\Demo\WndClient\obj\Debug\WndClient.Properties.Resources.resources
+C:\sc\github\FIT-RS2\01 Predavanje\Demo\WndClient\obj\Debug\WndClient.csproj.GenerateResource.cache
+C:\sc\github\FIT-RS2\01 Predavanje\Demo\WndClient\obj\Debug\WndClient.csproj.CoreCompileInputs.cache
+C:\sc\github\FIT-RS2\01 Predavanje\Demo\WndClient\obj\Debug\WndClient.exe
+C:\sc\github\FIT-RS2\01 Predavanje\Demo\WndClient\obj\Debug\WndClient.pdb
