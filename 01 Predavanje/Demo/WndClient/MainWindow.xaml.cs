@@ -28,6 +28,8 @@ namespace WndClient
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             var fac = int.Parse(factoriel.Text);
+
+            //
             var cl = new SoapSvc.Faktorijel.WebFaktorijelSoapClient();
             
             var retValue  = cl.BigFaktorijel(fac);
