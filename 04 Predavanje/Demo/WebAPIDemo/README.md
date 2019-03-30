@@ -16,7 +16,7 @@ public ActionResult<Movie> Get(int id)
 {
     var foundMoview =  m_Movies.Where(x=>x.Id==id).FirstOrDefault();
     if (foundMoview == null)
-        return NotFound($"Moview ({id}) not found!");
+        return NotFound($"Movie ({id}) not found!");
     else
         return Ok(foundMoview);
 }
