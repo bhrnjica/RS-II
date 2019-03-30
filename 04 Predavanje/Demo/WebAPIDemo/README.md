@@ -48,7 +48,7 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env)
     ...
 }
 ``` 
-## Implementacija Filtera za upravljanjem izuzecima
+## Implementacija Filtera za upravljanje sa izuzecima
 
 Da bi implementirali mehaniza filtriranja izuzetaka i inforamcija koje trebaju da idu do klijenta 
 prilikom nastanka neke greške potrebno je implementirati kastomizirani filter.
