@@ -1,7 +1,7 @@
 ﻿# Upravljanje izuzecima  - Web API sa APS.NET Core 
 
 Upravljanje izuzecima u svakom softverskom rješenju predstavlja vrlo važnu komponentu. 
-U ovom primjeru vidjećemo kako se upravlja sa izuzecima u ASP.NET COre Web API. Treći primjer iz Predavanja 3 predstavlja polaznu tačku za implementaciju.
+U ovom primjeru vidjećemo kako se upravlja sa izuzecima u ASP.NET Core Web API. Treći primjer iz Predavanja 3 predstavlja polaznu tačku za implementaciju.
 `ActionResult<T>` predstavlja osnovnu klasu za izvještavanje klijenta o statusu poslanog zahtjeva.
 
 - Implementirajmo ovu klasu u akciji  `Get(int Id)`. 
