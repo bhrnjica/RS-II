@@ -1,7 +1,7 @@
 ﻿# Upravljanje izuzecima  - Web API sa APS.NET Core 
 
 Upravljanje izuzecima u svakom softverskom rješenju predstavlja vrlo važnu komponentu. 
-U ovom primjeru vidjećemo kako se upravlja sa izuzecima u ASP.NET COre Web API. Treći primjer iz Predavanja 3 predstavlja polaznu tačku za implementaciju.
+U ovom primjeru vidjećemo kako se upravlja sa izuzecima u ASP.NET Core Web API. Treći primjer iz Predavanja 3 predstavlja polaznu tačku za implementaciju.
 `ActionResult<T>` predstavlja osnovnu klasu za izvještavanje klijenta o statusu poslanog zahtjeva.
 
 - Implementirajmo ovu klasu u akciji  `Get(int Id)`. 
@@ -16,7 +16,7 @@ public ActionResult<Movie> Get(int id)
 {
     var foundMoview =  m_Movies.Where(x=>x.Id==id).FirstOrDefault();
     if (foundMoview == null)
-        return NotFound($"Moview ({id}) not found!");
+        return NotFound($"Movie ({id}) not found!");
     else
         return Ok(foundMoview);
 }
@@ -48,7 +48,7 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env)
     ...
 }
 ``` 
-## Implementacija Filtera za upravljanjem izuzecima
+## Implementacija Filtera za upravljanje sa izuzecima
 
 Da bi implementirali mehaniza filtriranja izuzetaka i inforamcija koje trebaju da idu do klijenta 
 prilikom nastanka neke greške potrebno je implementirati kastomizirani filter.
