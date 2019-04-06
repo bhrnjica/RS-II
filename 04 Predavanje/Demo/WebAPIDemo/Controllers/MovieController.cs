@@ -35,28 +35,28 @@ namespace WebAPIDemo.Controllers
             return m_Movies;
         }
 
-        //// GET: api/movie/5
-        //[HttpGet("{id}", Name = "Get")]
-        //public ActionResult<Movie> Get(int id)
-        //{
-        //    var foundMoview =  m_Movies.Where(x=>x.Id==id).FirstOrDefault();
-        //    if (foundMoview == null)
-        //        return NotFound($"Moview ({id}) not found!");
-        //    else
-        //        return Ok(foundMoview);
-        //}
-
         // GET: api/movie/5
         [HttpGet("{id}", Name = "Get")]
-        [HandleException]
         public ActionResult<Movie> Get(int id)
         {
             var foundMoview = m_Movies.Where(x => x.Id == id).FirstOrDefault();
             if (foundMoview == null)
-                throw new Exception("This is exception!");
-
-            return foundMoview;
+                return NotFound($"Moview ({id}) not found!");
+            else
+                return Ok(foundMoview);
         }
+
+        // GET: api/movie/5
+        //[HttpGet("{id}", Name = "Get")]
+        //[HandleException]
+        //public ActionResult<Movie> Get(int id)
+        //{
+        //    var foundMoview = m_Movies.Where(x => x.Id == id).FirstOrDefault();
+        //    if (foundMoview == null)
+        //        throw new Exception("This is exception!");
+
+        //    return foundMoview;
+        //}
 
         //// POST: api/movie
         //[HttpPost]
