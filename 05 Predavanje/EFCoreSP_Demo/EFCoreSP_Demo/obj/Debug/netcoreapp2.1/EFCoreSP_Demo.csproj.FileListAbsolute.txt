@@ -1,0 +1,10 @@
+C:\sc\github\FIT-RS2\05 Predavanje\EFCoreSP_Demo\EFCoreSP_Demo\bin\Debug\netcoreapp2.1\EFCoreSP_Demo.deps.json
+C:\sc\github\FIT-RS2\05 Predavanje\EFCoreSP_Demo\EFCoreSP_Demo\bin\Debug\netcoreapp2.1\EFCoreSP_Demo.runtimeconfig.json
+C:\sc\github\FIT-RS2\05 Predavanje\EFCoreSP_Demo\EFCoreSP_Demo\bin\Debug\netcoreapp2.1\EFCoreSP_Demo.runtimeconfig.dev.json
+C:\sc\github\FIT-RS2\05 Predavanje\EFCoreSP_Demo\EFCoreSP_Demo\bin\Debug\netcoreapp2.1\EFCoreSP_Demo.dll
+C:\sc\github\FIT-RS2\05 Predavanje\EFCoreSP_Demo\EFCoreSP_Demo\obj\Debug\netcoreapp2.1\EFCoreSP_Demo.csproj.CoreCompileInputs.cache
+C:\sc\github\FIT-RS2\05 Predavanje\EFCoreSP_Demo\EFCoreSP_Demo\obj\Debug\netcoreapp2.1\EFCoreSP_Demo.AssemblyInfoInputs.cache
+C:\sc\github\FIT-RS2\05 Predavanje\EFCoreSP_Demo\EFCoreSP_Demo\obj\Debug\netcoreapp2.1\EFCoreSP_Demo.AssemblyInfo.cs
+C:\sc\github\FIT-RS2\05 Predavanje\EFCoreSP_Demo\EFCoreSP_Demo\bin\Debug\netcoreapp2.1\EFCoreSP_Demo.pdb
+C:\sc\github\FIT-RS2\05 Predavanje\EFCoreSP_Demo\EFCoreSP_Demo\obj\Debug\netcoreapp2.1\EFCoreSP_Demo.dll
+C:\sc\github\FIT-RS2\05 Predavanje\EFCoreSP_Demo\EFCoreSP_Demo\obj\Debug\netcoreapp2.1\EFCoreSP_Demo.pdb

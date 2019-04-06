@@ -1,0 +1,28 @@
+C:\sc\github\AspNetCoreSecuritySamples\JWT\src\AspNetCoreSecurity\bin\Debug\netcoreapp2.1\Api.deps.json
+C:\sc\github\AspNetCoreSecuritySamples\JWT\src\AspNetCoreSecurity\bin\Debug\netcoreapp2.1\Api.runtimeconfig.json
+C:\sc\github\AspNetCoreSecuritySamples\JWT\src\AspNetCoreSecurity\bin\Debug\netcoreapp2.1\Api.runtimeconfig.dev.json
+C:\sc\github\AspNetCoreSecuritySamples\JWT\src\AspNetCoreSecurity\bin\Debug\netcoreapp2.1\Api.dll
+C:\sc\github\AspNetCoreSecuritySamples\JWT\src\AspNetCoreSecurity\bin\Debug\netcoreapp2.1\Api.pdb
+C:\sc\github\AspNetCoreSecuritySamples\JWT\src\AspNetCoreSecurity\obj\Debug\netcoreapp2.1\Api.csprojAssemblyReference.cache
+C:\sc\github\AspNetCoreSecuritySamples\JWT\src\AspNetCoreSecurity\obj\Debug\netcoreapp2.1\Api.csproj.CoreCompileInputs.cache
+C:\sc\github\AspNetCoreSecuritySamples\JWT\src\AspNetCoreSecurity\obj\Debug\netcoreapp2.1\Api.RazorAssemblyInfo.cache
+C:\sc\github\AspNetCoreSecuritySamples\JWT\src\AspNetCoreSecurity\obj\Debug\netcoreapp2.1\Api.RazorAssemblyInfo.cs
+C:\sc\github\AspNetCoreSecuritySamples\JWT\src\AspNetCoreSecurity\obj\Debug\netcoreapp2.1\Api.AssemblyInfoInputs.cache
+C:\sc\github\AspNetCoreSecuritySamples\JWT\src\AspNetCoreSecurity\obj\Debug\netcoreapp2.1\Api.AssemblyInfo.cs
+C:\sc\github\AspNetCoreSecuritySamples\JWT\src\AspNetCoreSecurity\obj\Debug\netcoreapp2.1\Api.RazorTargetAssemblyInfo.cache
+C:\sc\github\AspNetCoreSecuritySamples\JWT\src\AspNetCoreSecurity\obj\Debug\netcoreapp2.1\Api.dll
+C:\sc\github\AspNetCoreSecuritySamples\JWT\src\AspNetCoreSecurity\obj\Debug\netcoreapp2.1\Api.pdb
+C:\sc\github\FIT-RS2\06 Predavanje\Demo\ExternalIdentityServer4\src\AspNetCoreSecurity\bin\Debug\netcoreapp2.1\Api.deps.json
+C:\sc\github\FIT-RS2\06 Predavanje\Demo\ExternalIdentityServer4\src\AspNetCoreSecurity\bin\Debug\netcoreapp2.1\Api.runtimeconfig.json
+C:\sc\github\FIT-RS2\06 Predavanje\Demo\ExternalIdentityServer4\src\AspNetCoreSecurity\bin\Debug\netcoreapp2.1\Api.runtimeconfig.dev.json
+C:\sc\github\FIT-RS2\06 Predavanje\Demo\ExternalIdentityServer4\src\AspNetCoreSecurity\bin\Debug\netcoreapp2.1\Api.dll
+C:\sc\github\FIT-RS2\06 Predavanje\Demo\ExternalIdentityServer4\src\AspNetCoreSecurity\bin\Debug\netcoreapp2.1\Api.pdb
+C:\sc\github\FIT-RS2\06 Predavanje\Demo\ExternalIdentityServer4\src\AspNetCoreSecurity\obj\Debug\netcoreapp2.1\Api.csprojAssemblyReference.cache
+C:\sc\github\FIT-RS2\06 Predavanje\Demo\ExternalIdentityServer4\src\AspNetCoreSecurity\obj\Debug\netcoreapp2.1\Api.csproj.CoreCompileInputs.cache
+C:\sc\github\FIT-RS2\06 Predavanje\Demo\ExternalIdentityServer4\src\AspNetCoreSecurity\obj\Debug\netcoreapp2.1\Api.RazorAssemblyInfo.cache
+C:\sc\github\FIT-RS2\06 Predavanje\Demo\ExternalIdentityServer4\src\AspNetCoreSecurity\obj\Debug\netcoreapp2.1\Api.RazorAssemblyInfo.cs
+C:\sc\github\FIT-RS2\06 Predavanje\Demo\ExternalIdentityServer4\src\AspNetCoreSecurity\obj\Debug\netcoreapp2.1\Api.AssemblyInfoInputs.cache
+C:\sc\github\FIT-RS2\06 Predavanje\Demo\ExternalIdentityServer4\src\AspNetCoreSecurity\obj\Debug\netcoreapp2.1\Api.AssemblyInfo.cs
+C:\sc\github\FIT-RS2\06 Predavanje\Demo\ExternalIdentityServer4\src\AspNetCoreSecurity\obj\Debug\netcoreapp2.1\Api.RazorTargetAssemblyInfo.cache
+C:\sc\github\FIT-RS2\06 Predavanje\Demo\ExternalIdentityServer4\src\AspNetCoreSecurity\obj\Debug\netcoreapp2.1\Api.dll
+C:\sc\github\FIT-RS2\06 Predavanje\Demo\ExternalIdentityServer4\src\AspNetCoreSecurity\obj\Debug\netcoreapp2.1\Api.pdb
