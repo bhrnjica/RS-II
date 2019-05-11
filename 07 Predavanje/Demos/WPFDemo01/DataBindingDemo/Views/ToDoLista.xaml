@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="DataBindingDemo.Views.ToDoLista"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:ViewModels="clr-namespace:DataBindingDemo.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="336"
+             d:DesignWidth="300"
+             d:DataContext="{d:DesignInstance ViewModels:Presenter}">
+
+    <UserControl.InputBindings>
+        <KeyBinding Key="Enter" Command="{Binding AddToDoCommand}"/>
+    </UserControl.InputBindings>
+    
+    <StackPanel Height="336">
+        <Label Foreground="Blue" Margin="5,5,5,0" Content="Unesite ToDo naziv"/>
+        <TextBox Text="{Binding ToDoZadatak, UpdateSourceTrigger=PropertyChanged}" Margin="5"/>
+        <Label Foreground="Blue" Margin="5,5,5,0" Content="ToDo Lista"/>
+        <ListBox ItemsSource="{Binding History}" SelectedItem="{Binding SelectedItem}" Height="200" Margin="5">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Naziv}"/>
+                        <Label Width="10"/>
+                        <TextBlock Foreground="red" Text="Prioritet: " />
+                        <TextBlock Foreground="red" Text="{Binding Prioritet}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <StackPanel Orientation="Horizontal" Margin="10,5,5,5" >
+            <Button  Command="{Binding AddToDoCommand}" Width="50" Content="Add"/>
+            <Label Width="50"/>
+            <Button  Command="{Binding DeleteToDoCommand}" Width="50" Content="Delete"/>
+        </StackPanel>
+    </StackPanel>
+    
+</UserControl>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinDemo.Views.AirportPage" BindingContext="{}">
+
+
+    <StackLayout>
+        <Label Text="Airport Status" FontSize="Large" FontAttributes="Bold" />
+        <Entry x:Name="airportCode" Placeholder="airport code" Text="SJJ" />
+        <Button x:Name="airportButton" Text="Get Airport Info" />
+
+         
+        <StackLayout Orientation="Vertical" HeightRequest="500" >
+            <StackLayout Orientation="Horizontal">
+                <Label Text="CODE: "  FontAttributes="Bold" />
+                <Label Text=" "  FontAttributes="Bold" />
+                <Label Text="{Binding IATA}"  FontAttributes="Bold" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Naziv: "  FontAttributes="Bold" />
+                <Label Text=" "  FontAttributes="Bold" />
+                <Label Text="{Binding Name}"  FontAttributes="Bold" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Grad: "  FontAttributes="Bold" />
+                <Label Text=" "  FontAttributes="Bold" />
+                <Label Text="{Binding City}"  FontAttributes="Bold" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Zemlja: "  FontAttributes="Bold" />
+                <Label Text=" "  FontAttributes="Bold" />
+                <Label Text="{Binding Countrey}"  FontAttributes="Bold" />
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
