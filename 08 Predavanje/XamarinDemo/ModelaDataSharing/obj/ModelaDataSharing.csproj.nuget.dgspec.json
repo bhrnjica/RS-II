@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\sc\\github\\RS-II\\08 Predavanje\\XamarinDemo\\ModelaDataSharing\\ModelaDataSharing.csproj": {}
+  },
+  "projects": {
+    "C:\\sc\\github\\RS-II\\08 Predavanje\\XamarinDemo\\ModelaDataSharing\\ModelaDataSharing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\sc\\github\\RS-II\\08 Predavanje\\XamarinDemo\\ModelaDataSharing\\ModelaDataSharing.csproj",
+        "projectName": "ModelaDataSharing",
+        "projectPath": "C:\\sc\\github\\RS-II\\08 Predavanje\\XamarinDemo\\ModelaDataSharing\\ModelaDataSharing.csproj",
+        "packagesPath": "C:\\Users\\bhrnjica\\.nuget\\packages\\",
+        "outputPath": "C:\\sc\\github\\RS-II\\08 Predavanje\\XamarinDemo\\ModelaDataSharing\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bhrnjica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\sc\\lnuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

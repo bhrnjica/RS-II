@@ -1,4 +1,4 @@
-<Window x:Class="DataBindingDemo.Views.ToDoWindow"
+<Window x:Class="DataBindingDemo.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:Views="clr-namespace:DataBindingDemo.Views"
@@ -9,7 +9,7 @@
         SizeToContent="WidthAndHeight">
     
     <Window.DataContext>
-        <ViewModels:Presenter/>
+        <ViewModels:ToDoViewModel/>
     </Window.DataContext>
     
     <Views:ToDoLista/>

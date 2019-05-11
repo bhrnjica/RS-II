@@ -1,8 +1,8 @@
 namespace DataBindingDemo.Views
 {
-    public partial class ToDoWindow
+    public partial class MainWindow
     {
-        public ToDoWindow()
+        public MainWindow()
         {
             InitializeComponent();
         }

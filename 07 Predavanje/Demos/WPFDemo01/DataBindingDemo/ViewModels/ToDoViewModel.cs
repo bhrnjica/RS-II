@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace DataBindingDemo.ViewModels
 {
-    public class Presenter : ObservableObject
+    public class ToDoViewModel : ObservableObject
     {
         private string m_ToDoZadatak;
         private ToDoStavka m_selectedItem= new ToDoStavka();

@@ -11,14 +11,15 @@ U ovom predavanju prikazane su neke od najzastupljenijih platformi za razvoj Win
 
 Oba primjera formiraju se pomoću Visual Studio alata za generiranje koda, preko ``File->New Project-> WinForms Application by C#``
 
-#WPF Primjer
-3. WPF klijent
+# WPF Primjeri
+
+3. **DataBindingDemo**
 Primjer demonstrira upotrebu WPF (Windows Presentation Foundation) platforme za razvoj Windows Desktop Aplikacija.
 
 Demo primjer prikazuje nekoliko ključnih tehnologija koje WPF posjeduje:
 
-- ``DataBinding`` - nacin povezivanja podataka sa UI kontrolama
-- ``DataTemplate`` - tehnologiju koristenja databinding u dizajniranju kontrola i podataka.
+- ``DataBinding`` - način povezivanja podataka sa UI kontrolama
+- ``DataTemplate`` - tehnologiju korištenja databinding u dizajniranju kontrola i podataka.
 - ``MVVM Pattern`` - najčešći softverski pristup kod implementacije bussines aplikacija u WPF. 
 
 Aplikacija se formira preko Visual Studio 2019 i formiranje novog WPF projekta.
@@ -28,5 +29,15 @@ Nakon formiranje novog projekta potrebno je implementirati MVVM patern kroz impl
 
 1. ToDoStavka.cs  - koja predstavlja model
 2. ToDoLista.xam - koja predstavlja View
-3. Presenter.cs - koja predstavlja ViewModel - i zaduzena je ua komunikaciju sa UI i modelom, 
-4 Implementacija Commandi odnosno UI events.
+3. ToDoViewModel.cs - koja predstavlja ViewModel - i zaduzena je ua komunikaciju sa UI i modelom, 
+
+4. **Implementacija Master-Detail Scenario u WPF korištenjem XmlDataProvider**
+
+Demo prikazuje primjer korištenja Master-Details koncepta pri prikazu tri
+sihhronizirane ListBox kontrole za prikaz XML podataka. Podaci su hiearhijski
+koncipirani, i kao takvi se prikazuju na WPF UI. Značajno je kazati da se cijeli postipak povezivanja list box kontrola i podataka u xml datoteci implementirao u xaml datoteci.
+
+Primjer je preuzet sa oficijelne Micforosot stranice za WPF i tamo se mogu naći
+više informacija i primjera za korištenje WPF:
+<https://github.com/microsoft/WPF-Samples>
+
