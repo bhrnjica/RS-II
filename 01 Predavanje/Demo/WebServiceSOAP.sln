@@ -1,13 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2003
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceSOAP", "WebServiceSOAP\WebServiceSOAP.csproj", "{44EF4D3A-68E2-48A0-AF6C-472B06598FEE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WndClient", "WndClient\WndClient.csproj", "{85028746-0EE9-402D-B57C-076DFADE456C}"
 	ProjectSection(ProjectDependencies) = postProject
 		{44EF4D3A-68E2-48A0-AF6C-472B06598FEE} = {44EF4D3A-68E2-48A0-AF6C-472B06598FEE}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B728E197-EF9B-4963-868B-7FDC26D65407}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
 Global
