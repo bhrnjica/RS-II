@@ -10,8 +10,8 @@ Svako predavanje ima snimak na youtube:
 6. Predavanje 06:https://youtu.be/Y7XXGegVUSc
 7. Predavanje 07:https://youtu.be/nZrQ3rTXg7E
 8. Predavanje 08:https://youtu.be/RbjgSZ_zTrg
-9. Predavanje 09:
-10. Predavanje 10:
+9. Predavanje 09:https://youtu.be/oDhfKdLcNgQ
+10. Predavanje 10:https://youtu.be/bxI-98sCd8k
 11. Predavanje 11:
 12. Predavanje 12:
 
