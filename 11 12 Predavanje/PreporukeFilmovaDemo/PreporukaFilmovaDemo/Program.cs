@@ -51,7 +51,7 @@ namespace PreporukaFilovaDemo
 
             //STEP 6: Izračunavanje performansi modela nakon  
             Console.WriteLine("=============== Evaluacija modela ===============");
-            IDataView testDataView = mlcontext.Data.LoadFromTextFile<MovieRating>("../../../../data/recommendation-ratings-train.csv", hasHeader: true, separatorChar: ',');
+            IDataView testDataView = mlcontext.Data.LoadFromTextFile<MovieRating>("../../../../data/recommendation-ratings-test.csv", hasHeader: true, separatorChar: ',');
             var prediction = model.Transform(testDataView);
             var metrics = mlcontext.Regression.Evaluate(prediction, labelColumnName: "Label", scoreColumnName: "Score");
             Console.WriteLine("Metrika za evaluaciju modela: KorijenSrednjeKvadratneGreske:" + metrics.RootMeanSquaredError);
